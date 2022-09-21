@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Karla4";
+    src: url(../fonts/Karla-Regular.ttf);
+}
+@font-face {
+    font-family: "Karla7";
+    src: url(../fonts/Karla-Bold.ttf);
+}
+
+@mixin childCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin alignChildren($space) {
+    display: flex;
+    align-items: center;
+    justify-content: $space;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$font1: Karla4, sans-serif;
+$font2: Karla7, sans-serif;
+$color1: hsl(179, 62%, 43%);
+$color2: hsl(71, 73%, 54%);
+
+li {
+    list-style-type: none;
+}

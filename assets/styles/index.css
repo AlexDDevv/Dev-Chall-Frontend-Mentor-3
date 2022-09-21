@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Karla4";
+  src: url(../fonts/Karla-Regular.ttf);
+}
+@font-face {
+  font-family: "Karla7";
+  src: url(../fonts/Karla-Bold.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background: hsl(204deg, 43%, 93%);
+}
+body article {
+  width: 38%;
+  margin: 100px auto;
+  border-radius: 6px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+body article .section1 {
+  background: white;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 25px 30px;
+}
+body article .section1 h1 {
+  font-family: Karla7, sans-serif;
+  font-weight: 700;
+  font-size: 20.8px;
+  color: hsl(179deg, 62%, 43%);
+  margin-bottom: 20px;
+}
+body article .section1 h2 {
+  font-family: Karla7, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(71deg, 73%, 54%);
+  margin-bottom: 15px;
+}
+body article .section1 p {
+  font-family: Karla4, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(218deg, 22%, 67%);
+  line-height: 27px;
+}
+body article .section2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+body article .section2 .left {
+  padding: 40px;
+  border-bottom-left-radius: 6px;
+  background: hsl(179deg, 62%, 43%);
+}
+body article .section2 .left h3 {
+  font-family: Karla4, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 15px;
+}
+body article .section2 .left .price {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 8px;
+}
+body article .section2 .left .price h4 {
+  font-family: Karla7, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+  margin-right: 10px;
+}
+body article .section2 .left .price h5 {
+  font-family: Karla4, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.629);
+}
+body article .section2 .left p {
+  font-family: Karla4, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 38px;
+}
+body article .section2 .left button {
+  font-family: Karla4, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background: hsl(71deg, 73%, 54%);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+body article .section2 .right {
+  padding: 40px;
+  border-bottom-right-radius: 6px;
+  background: hsla(179deg, 62%, 43%, 0.7);
+}
+body article .section2 .right h3 {
+  font-family: Karla4, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 15px;
+}
+body article .section2 .right li {
+  font-family: Karla4, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 20px;
+}/*# sourceMappingURL=index.css.map */
