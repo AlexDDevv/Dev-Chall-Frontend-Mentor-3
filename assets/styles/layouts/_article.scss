@@ -7,6 +7,13 @@ body {
         border-radius: 6px;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 
+        @media screen and (max-width: 1010px) {
+            width: 350px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            box-shadow: none;
+        }
+
         .section1 {
             background: white;
             border-top-left-radius: 6px;
@@ -19,6 +26,10 @@ body {
                 font-size: 20.8px;
                 color: $color1;
                 margin-bottom: 20px;
+
+                @media screen and (max-width: 1010px) {
+                    font-size: 18px;
+                }
             }
             h2 {
                 font-family: $font2;
@@ -26,6 +37,10 @@ body {
                 font-size: 18px;
                 color: $color2;
                 margin-bottom: 15px;
+
+                @media screen and (max-width: 1010px) {
+                    font-size: 14px;
+                }
             }
             p {
                 font-family: $font1;
@@ -33,16 +48,36 @@ body {
                 font-size: 14px;
                 color: hsl(218, 22%, 67%);
                 line-height: 27px;
+
+                @media screen and (max-width: 1010px) {
+                    font-size: 13px;
+                }
+
+                br {
+                    @media screen and (max-width: 1010px) {
+                        display: none;
+                    }
+                }
             }
         }
         .section2 {
             display: grid;
             grid-template-columns: 50% 50%;
 
+            @media screen and (max-width: 1010px) {
+                display: flex;
+                flex-direction: column;
+            }
+
             .left {
                 padding: 40px;
                 border-bottom-left-radius: 6px;
                 background: $color1;
+
+                @media screen and (max-width: 1010px) {
+                    border-radius: 0;
+                    padding: 25px;
+                }
 
                 h3 {
                     font-family: $font1;
@@ -77,12 +112,16 @@ body {
                     font-size: 14px;
                     color: rgba(255, 255, 255, 0.80);
                     margin-bottom: 38px;
+
+                    @media screen and (max-width:1010px) {
+                        margin-bottom: 25px;
+                    }
                 }
                 button {
                     font-family: $font1;
                     font-weight: 400;
                     font-size: 16px;
-                    color: white;
+                    color: rgba(255, 255, 255, 0.9);
                     background: $color2;
                     padding: 12px 20px;
                     border: none;
@@ -95,6 +134,12 @@ body {
                 padding: 40px;
                 border-bottom-right-radius: 6px;
                 background: hsla(179, 62%, 43%, 0.7);
+
+                @media screen and (max-width:1010px) {
+                    padding: 25px;
+                    border-bottom-left-radius: 6px;
+                    border-bottom-right-radius: 6px;
+                }
 
                 h3 {
                     font-family: $font1;
